@@ -1,11 +1,12 @@
 import React from'react';
 
-const Todo =() =>{           // es6 way to write  component
+const Todo =(props) =>{  
+             // es6 way to write  component, props customize each element
 
     return (
       <div className="todo">
-        <h2>this is todo</h2>
-        <p>my first task</p>
+        <h2>{props.title}</h2>
+        <p>{props.description}</p>
       </div>
     );
 };
