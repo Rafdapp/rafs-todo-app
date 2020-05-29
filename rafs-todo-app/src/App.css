@@ -1,7 +1,14 @@
-.title {
-  color: blue;
-  text-transform: capitalize;
+.titleMain {
   text-align: center;
-  
+  text-transform: capitalize;
+  color: blue;
+}
 
+
+.todo {
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid black;
+  
 }
